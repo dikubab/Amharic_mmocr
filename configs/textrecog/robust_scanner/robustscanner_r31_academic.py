@@ -3,8 +3,8 @@ _base_ = [
     '../../_base_/recog_models/robust_scanner.py',
     '../../_base_/schedules/schedule_adam_step_5e.py',
     '../../_base_/recog_pipelines/sar_pipeline.py',
-    '../../_base_/recog_datasets/ST_SA_MJ_real_train.py',
-    '../../_base_/recog_datasets/academic_test.py'
+    '../../_base_/recog_datasets/TN_WL_real_lmdb.py',
+    '../../_base_/recog_datasets/ethiopic_test.py',
 ]
 
 train_list = {{_base_.train_list}}

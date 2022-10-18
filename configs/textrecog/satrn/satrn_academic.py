@@ -1,8 +1,8 @@
 _base_ = [
     '../../_base_/default_runtime.py',
     '../../_base_/recog_pipelines/satrn_pipeline.py',
-    '../../_base_/recog_datasets/ST_MJ_train.py',
-    '../../_base_/recog_datasets/academic_test.py',
+    '../../_base_/recog_datasets/TN_WL_real_lmdb.py',
+    '../../_base_/recog_datasets/ethiopic_test.py',
     '../../_base_/schedules/schedule_adam_step_6e.py',
 ]
 
