@@ -186,6 +186,13 @@ If you find this project useful in your research, please consider cite:
     journal= {arXiv preprint arXiv:2108.06543},
     year={2021}
 }
+If you use our datasets please cite our work. 
+@article{dikubab2022comprehensive,
+  title={Comprehensive benchmark datasets for Amharic scene text detection and recognition},
+  author={Dikubab, Wondimu and Liang, Dingkang and Liao, Minghui and Bai, Xiang},
+  journal={Science China Information Sciences 65, Article number: 160106},
+  year={2022}
+}
 ```
 
 ## License
