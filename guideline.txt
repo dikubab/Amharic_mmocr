@@ -17,4 +17,4 @@ We have two training sets and two test sets datasets. Tana (TN) and Waliya (WL) 
 MMOCR usage
 1.	In the directory configs/_base_/recog_pipelines/, you have different pipelines you must change dict(type='LoadImageFromFile') to dict(type='LoadImageFromLMDB'),   
 2.	In the directory configs/_base_/recog_datasets/, you need to modify the path of test and train datasets.
-3.	In the directory mmocr/models/textrecog/convertors/ base.py define the dictionary using the 314 Amharic characters. Based on your character set, modify dict_type in all other related files.    
+3.	In the directory mmocr/models/textrecog/convertors/ base.py define the dictionary using the 314 Amharic characters. Based on your character set, modify dict_type in all other related files. We have modified the configs/textrecog/satrn/satrn_small.py settings. You can use it as an example.    
